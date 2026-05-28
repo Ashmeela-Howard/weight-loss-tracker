@@ -24,4 +24,3 @@ def log_exercise():
     print("Calories burned: " + str(calories_burned))
     exercise = {"exercise_name": exercise_name, "exercise_duration": exercise_duration, "calories_burned": calories_burned}
     return exercise
-log_exercise()

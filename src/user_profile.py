@@ -8,4 +8,4 @@ def get_user_details():
     goal_weight = float(input("What is your goal weight in Kg? "))
     user = {"name": name, "age": age, "weight": weight, "height": height, "goal_weight": goal_weight}
     print("Thanks " + name + "! Your profile has been successfully created.")
-get_user_details()
+    return user

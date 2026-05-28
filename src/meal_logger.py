@@ -8,4 +8,3 @@ def log_meal():
     Meal = {"meal_name": meal_name, "calories": calories, "carbs": carbs, "protein": protein, "fat": fat }
     print("Meal logged: " + meal_name + " | calories: " + str(calories))
     return Meal
-log_meal()
